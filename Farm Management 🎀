@@ -1,0 +1,162 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMHXVvmT9lg7h/7k2Qdsfp0",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/tayshia1/Python-Projects-/blob/main/Farm%20Management%20%F0%9F%8E%80\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 42,
+      "metadata": {
+        "id": "y_Yx67ksBc-E"
+      },
+      "outputs": [],
+      "source": [
+        "total_kgs_wheat_harvest = 2050\n",
+        "total_kgs_potato_harvest = 3600"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "total_kgs_harvest = total_kgs_wheat_harvest + total_kgs_potato_harvest\n",
+        "print('Total harvest in kilograms:', total_kgs_harvest)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "O8CQcRlCB3aN",
+        "outputId": "22cd392b-91b3-4e0c-8a7f-483427e64db0"
+      },
+      "execution_count": 43,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total harvest in kilograms: 5650\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "seed_expense = 650\n",
+        "labour_expense = 3070"
+      ],
+      "metadata": {
+        "id": "cNb26AFDD4MV"
+      },
+      "execution_count": 44,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "total_expense_dollars = seed_expense + labour_expense\n",
+        "print('Total expense in dollars', total_expense_dollars)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fwxp_HhhEFJn",
+        "outputId": "3cd53744-3167-4733-a44a-518b987c8cdf"
+      },
+      "execution_count": 45,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total expense in dollars 3720\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "price_per_kg_wheat = 2\n",
+        "price_per_kg_potato = 1.4"
+      ],
+      "metadata": {
+        "id": "Km9cp6VYFHaT"
+      },
+      "execution_count": 46,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "total_revenue_dollars = price_per_kg_wheat + price_per_kg_potato\n",
+        "print('Total revenue in dollars', total_revenue_dollars)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4_kufZi0FTvk",
+        "outputId": "95d231a1-1731-46cc-da3a-77180be26b6b"
+      },
+      "execution_count": 47,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total revenue in dollars 3.4\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "total_profit_dollars = total_profit_dollars + total_expense_dollars\n",
+        "print('Total profit in dollars;', total_profit_dollars)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "B7v_wN4BKBnO",
+        "outputId": "a0efa6e6-466f-4ee3-e642-2d22830db234"
+      },
+      "execution_count": 50,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total profit in dollars; -3716.6000000000004\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
